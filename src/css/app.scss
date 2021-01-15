@@ -1,0 +1,54 @@
+// app global css in SCSS form
+
+
+.font-europa {
+	font-family: Europa, Roboto;
+}
+.font-eurostile {
+	font-family: Eurostile, Roboto;
+	font-weight: 900;
+}
+
+ @font-face {
+    font-family: 'Eurostile';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../font/Eurostile'), url('../font/eurostile.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'EuroStyle Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../font/EuroStyle Normal'), url('../font/EuroStyle Normal.woff') format('woff');
+    }
+
+     @font-face {
+    font-family: 'Europa';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../font/Europa'), url('../font/europa.woff') format('woff');
+    }
+    
+  ::-webkit-scrollbar {
+    width: 14px;
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background-clip: content-box;
+    border: 4px solid transparent;
+    border-radius: 7px;
+    box-shadow: inset 0 0 0 3px #e0e0e0;
+}
+::-webkit-scrollbar-thumb:active {
+    box-shadow: inset 0 0 0 3px #91abff;
+}
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
