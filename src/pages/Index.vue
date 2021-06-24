@@ -6,7 +6,7 @@
 		<!------------------- First Column ---------------------->
 		<div class="text-white bg__firstColumn">
 			<div class="text-center font-eurostile front__title">
-				Web, Graphics Designer, Front-end Web Developer & Photographer
+				Graphics Designer, Front-end Web Developer & Photographer
 			</div>
 			<div class="text-center font-europa front__details">
 				I Make it work, i make it right, i make it fast.
@@ -25,7 +25,7 @@
 		<!------------------- Second Column ---------------------->
 		<div class="text-black bg__secondColumn" style="margin-top: -7px">
 			<div class="text-center snd__spacing">
-				<div class="font-eurostile title__snd text-h4">Hi, I’m Angelo Gabitan. Nice to meet you.</div>
+				<div class="font-eurostile title__snd text-h4">Hi, I’m Angelo Gabitan. it's a pleasure to have you here</div>
 					<div class="subtlt__snd font-europa" v-if="calculateAge != '16'">
 					I'm a Front-End Web Developer in Manila, Philippines {{ calculateAge }}y/o. I have a serious passion for Web Design, Graphics Design, Video Editing, Photo Editing, Creating Intuitive & User Interface let's make something special.
 				</div>
@@ -53,7 +53,7 @@
 					</div>
 					<div class="font-europa dsn__context">
 						<div style="color: #91abff">Things I enjoy designing:</div>
-						<div style="margin-top: 10px">UX, UI, Web, Mobile, Logos & Digital Art</div>
+						<div style="margin-top: 10px">UI, Web, Mobile, Logos & Digital Art</div>
 					</div>
 					<div class="font-europa dsn__tools">
 						<div style="color: #91abff">Design Tools:</div>
@@ -71,11 +71,11 @@
 						Front-end Web Developer
 					</div>
 					<div class="font-europa dsn__sub">
-						I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+						I learned a lot and finally confronted my fear of programming. Now I feel much more confident.
 					</div>
 					<div class="font-europa dsn__context">
 						<div style="color: #91abff">Languages I speak:</div>
-						<div style="margin-top: 10px">HTML, Css, Javascript, Vuejs, Quasar</div>
+						<div style="margin-top: 10px">HTML, CSS, Javascript, Vuejs, Quasar, Laravel</div>
 					</div>
 					<div class="font-europa dsn__tools">
 						<div style="color: #91abff">Dev Tools:</div>
@@ -86,7 +86,6 @@
 							<div>Codepen</div>
 							<div>Github</div>
 							<div>Git</div>
-							<div>Terminal</div>
 						</div>
 					</div>
 				</div>
@@ -127,7 +126,7 @@
 				My Recent Work
 			</div>
 			<div class="font-europa text-center text-h6 sub__fth">
-				Here are a few design projects I've worked on recently.
+				My recent designs on project development.
 			</div>
 			<!-- Krypto one -->
 			<div class="row q-col-gutter-lg imgs__row">
@@ -176,25 +175,6 @@
 				      </q-img>
 				</div>
 			</div>
-
-
-			<div class="text-center title__fthCpn text-h4 font-eurostile">
-				Proud to be collaborated with some companies:
-			</div>
-			<div class="row q-col-gutter-lg imgs__row">
-				<div class="col-md-3 col-sm-6 col-12 self-center">
-					<img style="width: 100%;" src="company_logo/lexicon.png" />
-				</div>
-				<div class="col-md-3 col-sm-6 col-12 self-center">
-					<img style="width: 100%;" src="company_logo/baristocrat.png" />
-				</div>
-				<div class="col-md-3 col-sm-6 col-12 self-center">
-					<img style="width: 100%;" src="company_logo/kryptoone.png" />
-				</div>
-				<div class="col-md-3 col-sm-6 col-12 self-center">
-					<img style="width: 100%;" src="company_logo/cryptolab.png" />
-				</div>
-			</div>
 		</div>
 
 
@@ -206,7 +186,7 @@
 						Testimonials
 					</div>
 					<div class="font-europa text-center text-h6 sub__fft">
-						People I've worked with have said some nice things...
+						See what people are saying...
 					</div>
 			 <q-carousel
 		        v-model="slide"
