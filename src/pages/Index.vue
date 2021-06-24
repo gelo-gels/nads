@@ -9,7 +9,7 @@
 				Web, Graphics Designer, Front-end Web Developer & Photographer
 			</div>
 			<div class="text-center font-europa front__details">
-				I design and code beautifully simple things, as well taking photos
+				I Make it work, i make it right, i make it fast.
 			</div>
 			<div class="text-center">
 				<img class="me__image" src="vector/me_2.png" />
@@ -27,10 +27,10 @@
 			<div class="text-center snd__spacing">
 				<div class="font-eurostile title__snd text-h4">Hi, I’m Angelo Gabitan. Nice to meet you.</div>
 					<div class="subtlt__snd font-europa" v-if="calculateAge != '16'">
-					I'm a Front-End Web Developer in Manila, Philippines {{ calculateAge }}y/o. I have a serious passion for Web Design, Graphics Design, Video Editing, Photo Editing, Animations, Creating Intuitive & User Interface let's make something special.
+					I'm a Front-End Web Developer in Manila, Philippines {{ calculateAge }}y/o. I have a serious passion for Web Design, Graphics Design, Video Editing, Photo Editing, Creating Intuitive & User Interface let's make something special.
 				</div>
 				<div class="subtlt__snd font-europa" v-if="calculateAge == '16'">
-					I'm a Front-End Web Developer in Manila, Philippines, Sweet {{ calculateAge }}. I have a serious passion for Web Design, Graphics Design, Video Editing, Photo Editing, Animations, Creating Intuitive & User Interface let's make something special.
+					I'm a Front-End Web Developer in Manila, Philippines, Sweet {{ calculateAge }}. I have a serious passion for Web Design, Graphics Design, Video Editing, Photo Editing, Creating Intuitive & User Interface let's make something special.
 				</div>
 			</div>
 		</div>
@@ -49,7 +49,7 @@
 						Graphics Designer
 					</div>
 					<div class="font-europa dsn__sub">
-						I value simple content structure, clean design patterns, and thoughtful interactions.
+						I optimizes marketing efforts across all channels and is key to building a professional brand.
 					</div>
 					<div class="font-europa dsn__context">
 						<div style="color: #91abff">Things I enjoy designing:</div>
@@ -101,7 +101,7 @@
 						Photographer
 					</div>
 					<div class="font-europa dsn__sub">
-						I genuinely care about people, and love helping fellow photographer work on their image.
+						I have a passion for documenting my life with stores that accompany them.
 					</div>
 					<div class="font-europa dsn__context">
 						<div style="color: #91abff">Experiences I draw from:</div>
@@ -111,9 +111,7 @@
 						<div style="color: #91abff">Photographer Stats:</div>
 						<div style="margin-top: 10px">
 							<div>1 year experience</div>
-							<div>2 Clients</div>
-							<div>10 Reviews</div>
-							<div>₱10K Gained</div>
+							<div>More than 10 Clients</div>
 						</div>
 					</div>
 				</div>
@@ -131,8 +129,9 @@
 			<div class="font-europa text-center text-h6 sub__fth">
 				Here are a few design projects I've worked on recently.
 			</div>
+			<!-- Krypto one -->
 			<div class="row q-col-gutter-lg imgs__row">
-				<div class="col-sm-6 col-12">
+				<div class="col-sm-4 col-12">
 					  <q-img src="works/kryptone.jpg" class="imgs__border">
 				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
 				           	Born and raised in London, UK, group has established & developed its brand in the high-end market.
@@ -140,11 +139,39 @@
 				          </div>
 				      </q-img>
 				</div>
-				<div class="col-sm-6 col-12">
+				<!-- Lexicon -->
+				<div class="col-sm-4 col-12">
 					  <q-img src="works/lexicon.jpg" class="imgs__border">
 				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
 				           	The online Hedge Fund and Banking Platform by the elite and established.
-				           	<a href="https://lexiconbank.holdings" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
+				           	<a target="_blank" class="btn__direct disabled">Website Unavailable <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+				      </q-img>
+				</div>
+				<!-- Baristocrat -->
+				<div class="col-sm-4 col-12">
+					  <q-img src="works/baristocrat.jpg" class="imgs__border">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	Confidential ecosystem of barter trading on blockchain with digital legal smart-contract
+				           	<a href="https://baristocrat.io" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+				      </q-img>
+				</div>
+				<!-- Perks -->
+				<div class="col-sm-4 col-12">
+					  <q-img src="works/perks.jpg" class="imgs__border">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	MLMs are designed to make sure that the sales representative's expenses exceed commissions.
+				           	<a href="http://perks.tk" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+				      </q-img>
+				</div>
+				<!-- Beams -->
+				<div class="col-sm-4 col-12">
+					  <q-img src="works/beams.jpg" class="imgs__border">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	Online learning is certainly the more effective option for students, but it's also better for the environment.
+				           	<a href="http://beams.cc" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
 				           </div>
 				      </q-img>
 				</div>
@@ -152,7 +179,7 @@
 
 
 			<div class="text-center title__fthCpn text-h4 font-eurostile">
-				I'm proud to have collaborated with some awesome companies:
+				Proud to be collaborated with some companies:
 			</div>
 			<div class="row q-col-gutter-lg imgs__row">
 				<div class="col-md-3 col-sm-6 col-12 self-center">
@@ -190,6 +217,7 @@
 		        control-color="black"
 		        animated
 		        style="background: transparent; height: 100%;"
+				class="cursor__pointer"
 				      >
 			     <q-carousel-slide name="josh" class="column no-wrap flex-center">
 					<div class="text-center" style="height: 100%">
@@ -449,8 +477,8 @@
 			<div class="text-center">
 				<img src="../../public/icons/logo_2.png" style="width: 150px">
 			</div>
-			<div class="sub__footer font-eurostile text-center">
-				Living, learning, & leveling up one day at a time.
+			<div class="sub__footer font-eurostile text-center text-italic">
+				If you can dream it, you can do it.
 			</div>
 			<div class="text-center social__medias">
 				<a class="media__btn q-mx-sm target__btn" href="https://www.facebook.com/angelogabitan.17" target="_blank">
@@ -541,7 +569,7 @@ export default {
 	/*    First Column    */
 	.front__title {
 		font-size: 50px;
-		padding: 100px 0px 20px 0px;
+		padding: 100px 10px 20px 10px;
 		letter-spacing: 1.1px;
 	}
 	.front__details {
@@ -688,6 +716,12 @@ export default {
 		margin: 30px 300px 30px 300px;
 		font-weight: 300;
 	}
+	.cursor__pointer:hover {
+		cursor: grab;
+	}
+	.cursor__pointer:active {
+		cursor: grabbing;
+	}
 
 
 	/*    Footer    */
@@ -815,6 +849,7 @@ export default {
 		}
 		.front__details {
 			font-size: 16px;
+			margin: 0px 10px 25px 10px;
 		}
 		.me__image {
 			width: 250px;
@@ -824,6 +859,12 @@ export default {
 			font-size: 20px;
 			line-height: 25px;
 		} 
+		.sub__fth {
+			margin: 0px 10px 90px 10px;
+		}
+		.sub__fft {
+			margin: 0px 10px 20px 10px;
+		}
 	}
 	@media (max-width: 500px) {
 		.computers__size {

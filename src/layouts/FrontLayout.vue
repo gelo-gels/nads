@@ -13,7 +13,7 @@
 		      	<a href="pdf/Resume.pdf" download="Angelo_Gabitan_CV_Resume" style="font-size: 17px; text-decoration: none" class="resume__btn hide__mobile">Download CV</a>
 		      </div>
 		        <div>
-		      	<q-btn style="font-size: 17px" label="Contact Me" class="contant__btn hide__mobile" no-caps flat rounded />
+		      	<a href="mailto:angelomikeaj@gmail.com" style="color: white; text-decoration: none"><q-btn style="font-size: 17px" label="Let's have a coffee" class="contant__btn hide__mobile" no-caps flat rounded /></a>
 		      </div>
 		      <div>
 		      	<q-btn icon="fas fa-bars" flat round @click="dialog = !dialog" class="text-white btn__mobile" />
@@ -24,7 +24,7 @@
 		    <q-dialog v-model="dialog" position="top">
 		      <q-card style="width: 350px; background: black; box-shadow: 0px 0px 10px 5px #212121; border-radius: 0px" class="text-center q-py-md">
 		        	<a href="pdf/Resume.pdf" download style="font-size: 17px; text-decoration: none" class="resume__btn q-mx-xs">Download CV</a>
-				<q-btn style="font-size: 17px" label="Contact Me" class="contant__btn q-mx-xs" no-caps flat rounded />
+				<q-btn style="font-size: 17px" label="Let's have a coffee" class="contant__btn q-mx-xs" no-caps flat rounded />
 		      </q-card>
 		    </q-dialog>
 
