@@ -100,10 +100,10 @@
 						Photographer
 					</div>
 					<div class="font-europa dsn__sub">
-						I have a passion for documenting my life with stores that accompany them.
+						I really believe there are things nobody would see if I didn’t photograph them.
 					</div>
 					<div class="font-europa dsn__context">
-						<div style="color: #91abff">Experiences I draw from:</div>
+						<div style="color: #91abff">Experiences I get from:</div>
 						<div style="margin-top: 10px">Freelancing, Events</div>
 					</div>
 					<div class="font-europa dsn__tools">
@@ -116,6 +116,11 @@
 				</div>
 			</div>
 		</div>
+
+
+
+
+
 
 
 
@@ -134,7 +139,7 @@
 					  <q-img src="works/kryptone.jpg" class="imgs__border">
 				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
 				           	Born and raised in London, UK, group has established & developed its brand in the high-end market.
-				           	<a href="https://krypto.one/#/" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
+				           	<a target="_blank" class="btn__direct disabled">Website is permanent down <q-icon name="fas fa-angle-right" /></a>
 				          </div>
 				      </q-img>
 				</div>
@@ -143,7 +148,7 @@
 					  <q-img src="works/lexicon.jpg" class="imgs__border">
 				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
 				           	The online Hedge Fund and Banking Platform by the elite and established.
-				           	<a target="_blank" class="btn__direct disabled">Website Unavailable <q-icon name="fas fa-angle-right" /></a>
+				           	<a target="_blank" class="btn__direct disabled">Website is permanent down <q-icon name="fas fa-angle-right" /></a>
 				           </div>
 				      </q-img>
 				</div>
@@ -152,7 +157,16 @@
 					  <q-img src="works/baristocrat.jpg" class="imgs__border">
 				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
 				           	Confidential ecosystem of barter trading on blockchain with digital legal smart-contract
-				           	<a href="https://baristocrat.io" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
+				           	<a target="_blank" class="btn__direct disabled">Website is permanent down <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+				      </q-img>
+				</div>
+				<!-- Cryptolab -->
+				<div class="col-sm-4 col-12">
+					  <q-img src="works/cryptolab.jpg" class="imgs__border">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	FREE Crypto Deposit Insurance Coverage
+				           	<a href="https://lexicon-cryptolab.netlify.app/#/" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
 				           </div>
 				      </q-img>
 				</div>
@@ -177,6 +191,149 @@
 			</div>
 		</div>
 
+
+
+
+		<!------------------- Insert Column 1 ---------------------->
+		<div class="text-white bg_addColumn1">
+			<div class="text-center titleColumn1 text-h4 font-eurostile">
+				My Vector Arts
+			</div>
+			<div class="font-europa text-center text-h6 sub__col1">
+				My recent draw on vector arts.
+			</div>
+			<div class="row q-col-gutter-lg imgs__row">
+				<!-- Daniela -->
+					<div class="col-sm-4 col-12">
+						<q-img src="arts/daniela.jpg" class="imgRadiusArts">
+						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://www.instagram.com/p/CDX90iOs-dJ/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+						</q-img>
+					</div>
+				<!-- Me -->
+					<div class="col-sm-4 col-12">
+						<q-img src="arts/me.jpg" class="imgRadiusArts" style="border: 5px solid white; background: white">
+						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://www.instagram.com/p/CJnFQdOnXwC/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+						</q-img>
+					</div>
+				<!-- Iron -->
+					<div class="col-sm-4 col-12">
+						<q-img src="arts/iron.jpg" class="imgRadiusArts"> <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://www.instagram.com/p/CMtdLN7HDIU/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+						</q-img>
+					</div>
+				<!-- Alvin -->
+					<div class="col-sm-4 col-12">
+						<q-img src="arts/alvin.jpg" class="imgRadiusArts">
+						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://www.instagram.com/p/CPwnz3enTEu/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+						</q-img>
+					</div>
+				<!-- El -->
+					<div class="col-sm-4 col-12">
+						<q-img src="arts/el.jpg" class="imgRadiusArts">
+						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://www.instagram.com/p/CSeHrqnH6mr/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+						</q-img>
+					</div>
+				<!-- Nards -->
+					<div class="col-sm-4 col-12">
+						<q-img src="arts/nards.jpg" class="imgRadiusArts">
+						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://www.instagram.com/p/CUWwK2xvpz6/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+						</q-img>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+		<!------------------- Insert Column 2 ---------------------->
+		<div class="text-black bg_addColumn2">
+			<div class="text-center titleColumn2 text-h4 font-eurostile">
+				My Recent Seminars
+			</div>
+			<div class="font-europa text-center text-h6 sub__col2">
+				My recent webinar about Front End & Designs
+			</div>
+			<!-- Krypto one -->
+			<div class="row q-col-gutter-lg imgs__row">
+				<div class="col-sm-6 col-12">
+					  <q-img src="certificates/1.jpg" class="imgs__border">
+				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://www.facebook.com/filtaglobal/videos/381659116175941/" target="_blank" class="btn__direct">Watch Video <q-icon name="fas fa-angle-right" /></a>
+				          </div>
+				      </q-img>
+				</div>
+				<!-- Lexicon -->
+				<div class="col-sm-6 col-12">
+					  <q-img src="certificates/2.jpg" class="imgs__border">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a href="https://fb.watch/8vQNnkqweK/" target="_blank" class="btn__direct">Watch Video <q-icon name="fas fa-angle-right" /></a>
+				           </div>
+				      </q-img>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+
+
+		<!------------------- Insert Column 3 ---------------------->
+		<div class="text-white bg_addColumn3">
+			<div class="text-center titleColumn3 text-h4 font-eurostile">
+				My Recent Works on Graphics Design
+			</div>
+			<div class="font-europa text-center text-h6 sub__col3">
+				My recent designs on graphics
+			</div>
+			<!-- Kpluz -->
+			<div class="row q-col-gutter-lg imgs__row">
+				<div class="col-sm-6 col-12">
+					  <q-img src="graphics/kpluz.jpg" class="imgRadiusGraphics">
+				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+							  KPLUZ BROCHURE
+				          </div>
+				      </q-img>
+				</div>
+				<!-- Beams -->
+				<div class="col-sm-6 col-12">
+					  <q-img src="graphics/beams.jpg" class="imgRadiusGraphics">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+							   BEAMS BROCHURE
+				           </div>
+				      </q-img>
+				</div>
+				<!-- ela -->
+				<div class="col-sm-6 col-12">
+					  <q-img src="graphics/ela.jpg" class="imgRadiusGraphics">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+							   CLIENT BANNER
+				           </div>
+				      </q-img>
+				</div>
+				<!-- rivals -->
+				<div class="col-sm-6 col-12">
+					  <q-img src="graphics/rivals.jpg" class="imgRadiusGraphics">
+				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+							   CLIENT BANNER
+				           </div>
+				      </q-img>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -473,10 +630,10 @@
 				<a class="media__btn q-mx-sm target__btn" href="https://www.linkedin.com/in/angelo-gabitan-086701202/" target="_blank">
 					<q-icon size="18px" name="fab fa-linkedin-in" class="icon__hover" />
 				</a>
-				<a class="media__btn q-mx-sm target__btn" href="mailto:angelomikeaj@gmail.com">
+				<a class="media__btn q-mx-sm target__btn" href="mailto:angelogabitan1719@gmail.com">
 					<q-icon size="18px" name="far fa-envelope" class="icon__hover" />
 				</a>
-				<a class="media__btn q-mx-sm target__btn" href="https://github.com/CodeTech-bit" target="_blank">
+				<a class="media__btn q-mx-sm target__btn" href="https://github.com/gelo-gels" target="_blank">
 					<q-icon size="18px" name="fab fa-github" class="icon__hover" />
 				</a>
 			</div>
@@ -702,6 +859,59 @@ export default {
 	.cursor__pointer:active {
 		cursor: grabbing;
 	}
+
+
+
+	/*     Add Column 1    */
+	.bg_addColumn1 {
+		background: black;
+		padding: 0px 0px 100px 0px
+	}
+	.titleColumn1 {
+		margin: 100px 0px 20px 0px;
+		padding: 100px 0px 0px 0px;
+	}
+	.sub__col1 {
+		margin: 0px 0px 90px 0px;
+	}
+	.imgRadiusArts {
+		border-radius: 13px;
+	}
+
+
+	/*     Add Column 2    */
+	.bg_addColumn2 {
+		background: white;
+		padding: 0px 0px 100px 0px
+	}
+	.titleColumn2 {
+		margin: 100px 0px 20px 0px;
+	}
+	.sub__col2 {
+		margin: 0px 0px 90px 0px;
+	}
+	.imgRadiusArts {
+		border-radius: 13px;
+	}
+
+	
+	/*     Add Column 3    */
+	.bg_addColumn3 {
+		background: black;
+		padding: 0px 0px 100px 0px
+	}
+	.titleColumn3 {
+		margin: 0px 0px 20px 0px;
+		padding: 100px 0px 0px 0px;
+	}
+	.sub__col3 {
+		margin: 0px 0px 90px 0px;
+	}
+	.imgRadiusGraphics {
+		border-radius: 13px;
+	}
+
+
 
 
 	/*    Footer    */
