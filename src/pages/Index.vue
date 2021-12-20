@@ -430,16 +430,16 @@ Here are some books that I think you should read. These books have captured my h
 					<div class="font-europa text-center text-h6 sub__fft">
 						Are you also a bookworm? Let us get in touch with each other. Feel free to message me if you have any recommendations for wholesome books to read.
 					</div>
-				<form name="contact" method="POST" data-netlify="true" class="font-europa form__parent">
+				<form @submit.prevent="handleSubmit" name="contact" method="POST" data-netlify="true" class="font-europa form__parent">
 					<div>
-						<input class="input__last" type="text" name="firstname" placeholder="First Name" style="width: 40%" />
-						<input class="input__last" type="text" name="lastname"  placeholder="Last Name" style="width: 40%" />
+						<input v-model="form.first_name" class="input__last" type="text" name="first_name" placeholder="First Name" style="width: 40%" />
+						<input v-model="form.last_name" class="input__last" type="text" name="last_name"  placeholder="Last Name" style="width: 40%" />
 					</div>
 					<div>
-						<input class="input__last" type="email" name="email" placeholder="Email"  style="width: 83%" />
+						<input v-model="form.email" class="input__last" type="email" name="email" placeholder="Email"  style="width: 83%" />
 					</div>
 					<div>
-						<textarea class="input__last" name="message" placeholder="Message" style="width: 83%; height: 100px"></textarea>
+						<textarea v-model="form.message" class="input__last" name="message" placeholder="Message" style="width: 83%; height: 100px"></textarea>
 					</div>
 					<div>
 						<button class="input__last text-bold" type="submit" style="width: 83%; font-size: 20px; cursor: pointer">Send</button>
@@ -498,10 +498,35 @@ export default {
 		 brain: false,
 		 sky: false,
 		 mindset: false,
+
+		 form: {
+			 first_name: '',
+			 last_name: '',
+			 email: '',
+			 message: '',
+		 }
   	}
   },
   methods: {
-  	
+	  encode(data) {
+		  return Object.keys(data)
+		  .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+		  .join('&')
+	  },
+  		handleSubmit() {
+			fetch('/', {
+				method: 'post',
+				headers: {
+					'Content-type': 'application/x-www-urlencoded'
+				},
+				body: this.encode({
+					'form-name': 'contact',
+					...this.form
+				})
+			})
+			.then(() => console.log('successfully sent'))
+			.catch(e => console.error(e))
+	  }
   },
   
 }
