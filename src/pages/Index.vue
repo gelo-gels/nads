@@ -442,11 +442,21 @@ Here are some books that I think you should read. These books have captured my h
 						<textarea v-model="form.message" class="input__last" name="message" placeholder="Message" style="width: 83%; height: 100px"></textarea>
 					</div>
 					<div>
-						<button class="input__last text-bold" type="submit" style="width: 83%; font-size: 20px; cursor: pointer">Send</button>
+						<button @click="dialogBTN" class="input__last text-bold" type="submit" style="width: 83%; font-size: 20px; cursor: pointer">Send</button>
 					</div>
 				</form>
 
-				<form name="contact" action="/pages/success" method="POST" data-netlify="true"></form>
+
+				<q-dialog v-model="dialog" position="bottom" seamless >
+					<q-card class="q-pa-md font-europa text-center text-bold" style="font-size: 25px; width: 350px; border-radius: 20px 20px 0px 0px; color: #262626">
+						<div>
+							<q-icon name="fas fa-check" size="50px" class="q-pb-md q-pt-md" />
+						</div>
+						<div class="q-pb-md">
+							Successfully Sent!
+						</div>
+					</q-card>
+				</q-dialog>
 		</div>
 
 
@@ -454,29 +464,20 @@ Here are some books that I think you should read. These books have captured my h
 		<!------------------- Footer ---------------------->
 		<div class="text-grey-5 bg__footer">
 			<div class="text-center">
-				<img src="../../public/icons/logo_2.png" style="width: 150px">
+				<img src="../../public/vector/me.png" style="width: 150px">
 			</div>
 			<div class="sub__footer font-eurostile text-center text-italic">
 				Reading is like bringing your imaginations to life.
 			</div>
 			<div class="text-center social__medias">
-				<a class="media__btn q-mx-sm target__btn" href="https://www.facebook.com/angelogabitan.17" target="_blank">
+				<a class="media__btn q-mx-sm target__btn" href="https://www.facebook.com/leibeah" target="_blank">
 					<q-icon size="18px" name="fab fa-facebook-f" class="icon__hover" />
 				</a>
-				<a class="media__btn q-mx-sm target__btn" href="https://www.instagram.com/gelo_arts/" target="_blank">
+				<a class="media__btn q-mx-sm target__btn" href="https://www.instagram.com/leighbeah/" target="_blank">
 					<q-icon size="18px" name="fab fa-instagram" class="icon__hover" />
 				</a>
-				<a class="media__btn q-mx-sm target__btn" href="https://open.spotify.com/artist/2qkhgA2XJGdKGSbGul3CnK" target="_blank">
-					<q-icon size="18px" name="fab fa-spotify" class="icon__hover" />
-				</a>
-				<a class="media__btn q-mx-sm target__btn" href="https://www.linkedin.com/in/angelo-gabitan-086701202/" target="_blank">
-					<q-icon size="18px" name="fab fa-linkedin-in" class="icon__hover" />
-				</a>
-				<a class="media__btn q-mx-sm target__btn" href="mailto:angelogabitan1719@gmail.com">
+				<a class="media__btn q-mx-sm target__btn" href="mailto:leighbeah7@gmail.com">
 					<q-icon size="18px" name="far fa-envelope" class="icon__hover" />
-				</a>
-				<a class="media__btn q-mx-sm target__btn" href="https://github.com/gelo-gels" target="_blank">
-					<q-icon size="18px" name="fab fa-github" class="icon__hover" />
 				</a>
 			</div>
 			<div class="text-center copyright__txt font-europa q-px-sm">
@@ -498,6 +499,7 @@ export default {
 		 brain: false,
 		 sky: false,
 		 mindset: false,
+		 dialog: false,
 
 		 form: {
 			 first_name: '',
@@ -517,7 +519,7 @@ export default {
 			fetch('/', {
 				method: 'post',
 				headers: {
-					'Content-type': 'application/x-www-urlencoded'
+					'Content-type': 'application/x-www-form-urlencoded'
 				},
 				body: this.encode({
 					'form-name': 'contact',
@@ -526,6 +528,14 @@ export default {
 			})
 			.then(() => console.log('successfully sent'))
 			.catch(e => console.error(e))
+	  },
+
+	  dialogBTN() {
+		  this.dialog = true
+
+		  setTimeout(()=>{
+			this.dialog = false
+		},3000);
 	  }
   },
   

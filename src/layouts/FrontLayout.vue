@@ -7,13 +7,8 @@
 		      <q-toolbar-title class="q-pb-sm">
 		      	<q-img style="width: 50px; cursor: pointer" src="../../public/vector/me.png" />
 		      </q-toolbar-title>
-
-		      <div class="q-mr-md">
-		      	<!-- <q-btn style="font-size: 17px" label="Download CV" class="resume__btn hide__mobile" no-caps flat rounded /> -->
-		      	<a href="pdf/Resume.pdf" download="Angelo_Gabitan_CV_Resume" style="font-size: 17px; text-decoration: none" class="resume__btn hide__mobile">Download CV</a>
-		      </div>
 		        <div>
-		      	<a href="mailto:angelomikeaj@gmail.com" style="color: white; text-decoration: none"><q-btn style="font-size: 17px" label="Let's have a coffee" class="contant__btn hide__mobile" no-caps flat rounded /></a>
+		      	<a href="flower/Flowers_For_You.png" download="Flowers for you" style="color: white; text-decoration: none"><q-btn style="font-size: 17px" label="Flowers" class="contant__btn hide__mobile" no-caps flat rounded /></a>
 		      </div>
 		      <div>
 		      	<q-btn icon="fas fa-bars" flat round @click="dialog = !dialog" class="text-white btn__mobile" />
@@ -23,8 +18,9 @@
 		    </q-header>
 		    <q-dialog v-model="dialog" position="top">
 		      <q-card style="width: 350px; background: black; box-shadow: 0px 0px 10px 5px #212121; border-radius: 0px" class="text-center q-py-md">
-		        	<a href="pdf/Resume.pdf" download style="font-size: 17px; text-decoration: none" class="resume__btn q-mx-xs">Download CV</a>
-				<q-btn style="font-size: 17px" label="Let's have a coffee" class="contant__btn q-mx-xs" no-caps flat rounded />
+				  <a href="flower/Flowers_For_You.png" download="Flowers for you" style="color: white; text-decoration: none">
+					<q-btn style="font-size: 17px" label="Flowers" class="contant__btn q-mx-xs" no-caps flat rounded />
+				  </a>
 		      </q-card>
 		    </q-dialog>
 
