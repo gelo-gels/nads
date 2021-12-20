@@ -432,17 +432,17 @@ Here are some books that I think you should read. These books have captured my h
 					</div>
 				<form @submit.prevent="handleSubmit" name="contact" method="POST" data-netlify="true" class="font-europa form__parent">
 					<div>
-						<input v-model="form.first_name" class="input__last" type="text" name="first_name" placeholder="First Name" style="width: 40%" />
-						<input v-model="form.last_name" class="input__last" type="text" name="last_name"  placeholder="Last Name" style="width: 40%" />
+						<input required v-model="form.first_name" class="input__last" type="text" name="first_name" placeholder="First Name" style="width: 40%" />
+						<input required v-model="form.last_name" class="input__last" type="text" name="last_name"  placeholder="Last Name" style="width: 40%" />
 					</div>
 					<div>
-						<input v-model="form.email" class="input__last" type="email" name="email" placeholder="Email"  style="width: 83%" />
+						<input required v-model="form.email" class="input__last" type="email" name="email" placeholder="Email"  style="width: 83%" />
 					</div>
 					<div>
-						<textarea v-model="form.message" class="input__last" name="message" placeholder="Message" style="width: 83%; height: 100px"></textarea>
+						<textarea required v-model="form.message" class="input__last" name="message" placeholder="Message" style="width: 83%; height: 100px"></textarea>
 					</div>
 					<div>
-						<button @click="dialogBTN" class="input__last text-bold" type="submit" style="width: 83%; font-size: 20px; cursor: pointer">Send</button>
+						<button class="input__last text-bold" type="submit" style="width: 83%; font-size: 20px; cursor: pointer">Send</button>
 					</div>
 				</form>
 
@@ -528,6 +528,11 @@ export default {
 			})
 			.then(() => console.log('successfully sent'))
 			.catch(e => console.error(e))
+
+			this.dialog = true
+			 setTimeout(()=>{
+				this.dialog = false
+			},3000);
 	  },
 
 	  dialogBTN() {
