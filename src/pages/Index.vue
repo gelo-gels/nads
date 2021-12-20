@@ -6,13 +6,36 @@
 		<!------------------- First Column ---------------------->
 		<div class="text-white bg__firstColumn">
 			<div class="text-center font-eurostile front__title">
-				Graphics Designer, Front-end Web Developer & Photographer
+				I hope you gain something from visiting this website.
 			</div>
-			<div class="text-center font-europa front__details">
-				I Make it work, i make it right, i make it fast.
-			</div>
-			<div class="text-center">
-				<img class="me__image" src="vector/me_2.png" />
+			<div class="row hover_hereDtls">
+				<div style="position: absolute" class="greetings__hover">
+					hi!
+				</div>
+				<div class="col-md-6">
+					<div class="text-right">
+						<img class="me__image" src="vector/me_2.png" />
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="dtls_beah">
+						<div class="text-left font-europa front__details">
+							<b>Name:</b> Leigh Beah S. Malabanan
+						</div>
+						<div class="text-left font-europa front__details">
+							<b>Nickname:</b> Beah
+						</div>
+						<div class="text-left font-europa front__details">
+							<b>Age:</b> 16
+						</div>
+						<div class="text-left font-europa front__details">
+							<b>Birthday:</b> July 22, 2005
+						</div>
+						<div class="text-left font-europa front__details">
+							<b>Motto:</b> Nothing is impossible.
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="text-center">
 				<img src="png_imgs/web-styles.png" class="computers__size" />
@@ -25,12 +48,10 @@
 		<!------------------- Second Column ---------------------->
 		<div class="text-black bg__secondColumn" style="margin-top: -7px">
 			<div class="text-center snd__spacing">
-				<div class="font-eurostile title__snd text-h4">Hi, I’m Angelo Gabitan. it's a pleasure to have you here</div>
-					<div class="subtlt__snd font-europa" v-if="calculateAge != '16'">
-					I'm a Front-End Web Developer in Manila, Philippines {{ calculateAge }}y/o. I have a serious passion for Web Design, Graphics Design, Video Editing, Photo Editing, Creating Intuitive & User Interface let's make something special.
-				</div>
-				<div class="subtlt__snd font-europa" v-if="calculateAge == '16'">
-					I'm a Front-End Web Developer in Manila, Philippines, Sweet {{ calculateAge }}. I have a serious passion for Web Design, Graphics Design, Video Editing, Photo Editing, Creating Intuitive & User Interface let's make something special.
+				<div class="font-eurostile title__snd text-h4">Interest</div>
+					<div class="subtlt__snd font-europa">
+					I've been reading books, or more specifically, E-books, since I was in seventh grade. I enjoy the sensation of traveling to another dimension through my imagination and in conjunction with scenes from the books I am reading. The books I've already read and those I'd like to recommend are listed below. I've also written my views regarding the books, as well as what it's all about.
+
 				</div>
 			</div>
 		</div>
@@ -41,76 +62,103 @@
 		<!------------------- Third Column ---------------------->
 		<div class="text-white bg_thirdColumn">
 			<div class="row text-center thd__row">
-				<div class="col-sm-4 col-12 thd__spacing" style="border-right: 1px solid #333333">
+				<div class="col-sm-6 col-12 thd__spacing" style="border-right: 1px solid #333333">
 					<div>
-						<img src="png_imgs/web-design.png" style="width: 60px" />
+						<img src="png_imgs/wattpad.png" style="width: 60px" />
 					</div>
 					<div class="text-h5 font-eurostile dsn__title">
-						Graphics Designer
+						Wattpad
 					</div>
-					<div class="font-europa dsn__sub">
-						I optimizes marketing efforts across all channels and is key to building a professional brand.
+					<div class="font-europa dsn__sub" style="color: #cdb891">
+						Author: Jonaxx
 					</div>
 					<div class="font-europa dsn__context">
-						<div style="color: #91abff">Things I enjoy designing:</div>
-						<div style="margin-top: 10px">UI, Web, Mobile, Logos & Digital Art</div>
+						<div>Scorching Love</div>
+						<div>Waves of Memories</div>
+						<div>Island of Fire</div>
+						<div>Blown By the Wind</div>
+						<div>What Lies Beneath The Sand</div>
+						<div>Sands of Time</div>
+						<div>Ruling the Wild Waves</div>
+						<div>Sunburned Heart</div>
+						<div>Whispers of the Wind</div>
+						<div>Love in the Dark</div>
+						<div>Kissing the Dust</div>
+						<div>Sweet Flames of Vengeance</div>
+						<div>After the Chains</div>
+						<div>The Sun’s Heartbeat</div>
 					</div>
-					<div class="font-europa dsn__tools">
-						<div style="color: #91abff">Design Tools:</div>
-						<div style="margin-top: 10px">
-							<div>Adobe Photoshop</div>
-							<div>Adobe Illustrator</div>
-						</div>
+					<div class="font-europa dsn__sub" style="color: #cdb891">
+						Del Fierro Series
+					</div>
+					<div class="font-europa dsn__context">
+						<div>One Rebellious Night</div>
+					</div>
+					<div class="font-europa dsn__sub" style="color: #cdb891">
+						Elizalde Brother’s Series
+					</div>
+					<div class="font-europa dsn__context">
+						<div>Heartless</div>
+						<div>Worthless</div>
+					</div>
+					<div class="font-europa dsn__sub" style="color: #cdb891">
+						Alegria Girls Series
+					</div>
+					<div class="font-europa dsn__context">
+						<div>Whipped: Entice</div>
+						<div>Ripped: Freya</div>
+						<div>Tripped: Lilienne</div>
+					</div>
+					<div class="font-europa dsn__sub" style="color: #cdb891">
+						Author: VentreCanard
+					</div>
+					<div class="font-europa dsn__context">
+						<div>Taste of Sky</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-12 thd__spacing" style="border-right: 1px solid #333333">
+				<div class="col-sm-6 col-12 thd__spacing" style="border-right: 1px solid #333333">
 					<div>
-						<img src="png_imgs/web-development.png" style="width: 50px; margin-top: 10px" />
+						<img src="png_imgs/books.png" style="width: 50px; margin-top: 10px" />
 					</div>
 					<div class="text-h5 font-eurostile frt__title">
-						Front-end Web Developer
+						Self-help Books
 					</div>
-					<div class="font-europa dsn__sub">
-						I learned a lot and finally confronted my fear of programming. Now I feel much more confident.
-					</div>
-					<div class="font-europa dsn__context">
-						<div style="color: #91abff">Languages I speak:</div>
-						<div style="margin-top: 10px">HTML, CSS, Javascript, Vuejs, Quasar, Laravel</div>
-					</div>
-					<div class="font-europa dsn__tools">
-						<div style="color: #91abff">Dev Tools:</div>
-						<div style="margin-top: 10px">
-							<div>VSCode</div>
-							<div>Sublime</div>
-							<div>Bootstrap</div>
-							<div>Codepen</div>
-							<div>Github</div>
-							<div>Git</div>
+					<div class="font-europa dsn__context q-pt-md">
+						<div class="q-mb-md">The Subtle Art of Not Giving a Fuck 
+							<div style="color: #cdb891">Mark Manson</div>
 						</div>
-					</div>
-				</div>
-
-
-
-				<div class="col-sm-4 col-12 thd__spacing">
-					<div>
-						<img src="png_imgs/camera.png" style="width: 60px" />
-					</div>
-					<div class="text-h5 font-eurostile ptg__title">
-						Photographer
-					</div>
-					<div class="font-europa dsn__sub">
-						I really believe there are things nobody would see if I didn’t photograph them.
-					</div>
-					<div class="font-europa dsn__context">
-						<div style="color: #91abff">Experiences I get from:</div>
-						<div style="margin-top: 10px">Freelancing, Events</div>
-					</div>
-					<div class="font-europa dsn__tools">
-						<div style="color: #91abff">Photographer Stats:</div>
-						<div style="margin-top: 10px">
-							<div>1 year experience</div>
-							<div>More than 10 Clients</div>
+						<div class="q-mb-md">Atomic Habit
+							<div style="color: #cdb891">James Clear</div>
+						</div>
+						<div class="q-mb-md">Rich Dad, Poor Dad
+							<div style="color: #cdb891">Robert Kiyosaki and Sharon Lechter</div>
+						</div>
+						<div class="q-mb-md">The Happiness Project
+							<div style="color: #cdb891">Gretchen Rubin</div>
+						</div>
+						<div class="q-mb-md">Make Time
+							<div style="color: #cdb891">Jake Knapp and John Zeratsky</div>
+						</div>
+						<div class="q-mb-md">Switch On Your Brain
+							<div style="color: #cdb891"> Caroline Leaf</div>
+						</div>
+						<div class="q-mb-md">Millionaire Success Habits
+							<div style="color: #cdb891">Dean Graziosi</div>
+						</div>
+						<div class="q-mb-md">13 Things Mentally Strong Women Don’t Do
+							<div style="color: #cdb891">Amy Morin</div>
+						</div>
+						<div class="q-mb-md">Mindset
+							<div style="color: #cdb891">Carol S. Dweck</div>
+						</div>
+						<div class="q-mb-md">Think and Grow Rich
+							<div style="color: #cdb891">Napoleon Hill</div>
+						</div>
+						<div class="q-mb-md">Mindset
+							<div style="color: #cdb891">Carol S. Dweck</div>
+						</div>
+						<div class="q-mb-md">100 Essays That Will Change the Way You Think
+							<div style="color: #cdb891">Brianna Wiest</div>
 						</div>
 					</div>
 				</div>
@@ -128,66 +176,149 @@
 		<!------------------- Fourth Column ---------------------->
 		<div class="text-black bg_fourthColumn">
 			<div class="text-center title__fth text-h4 font-eurostile">
-				My Recent Work
+				My All - Time Faves
 			</div>
 			<div class="font-europa text-center text-h6 sub__fth">
-				My recent designs on project development.
+				The stories below have immersed me in another life and impacted me to make significant changes.
 			</div>
 			<!-- Krypto one -->
 			<div class="row q-col-gutter-lg imgs__row">
 				<div class="col-sm-4 col-12">
-					  <q-img src="works/kryptone.jpg" class="imgs__border">
+					  <q-img src="works/1.jpg" class="imgs__border">
 				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	Born and raised in London, UK, group has established & developed its brand in the high-end market.
-				           	<a target="_blank" class="btn__direct disabled">Website is permanent down <q-icon name="fas fa-angle-right" /></a>
+				           	<a @click="richdad = true" class="btn__direct">Insights <q-icon name="fas fa-eye" /></a>
 				          </div>
 				      </q-img>
 				</div>
-				<!-- Lexicon -->
 				<div class="col-sm-4 col-12">
-					  <q-img src="works/lexicon.jpg" class="imgs__border">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	The online Hedge Fund and Banking Platform by the elite and established.
-				           	<a target="_blank" class="btn__direct disabled">Website is permanent down <q-icon name="fas fa-angle-right" /></a>
-				           </div>
+					  <q-img src="works/2.jpg" class="imgs__border">
+				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a @click="sands = true" class="btn__direct">Insights <q-icon name="fas fa-eye" /></a>
+				          </div>
 				      </q-img>
 				</div>
-				<!-- Baristocrat -->
 				<div class="col-sm-4 col-12">
-					  <q-img src="works/baristocrat.jpg" class="imgs__border">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	Confidential ecosystem of barter trading on blockchain with digital legal smart-contract
-				           	<a target="_blank" class="btn__direct disabled">Website is permanent down <q-icon name="fas fa-angle-right" /></a>
-				           </div>
+					  <q-img src="works/3.jpg" class="imgs__border">
+				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a @click="maketime = true" class="btn__direct">Insights <q-icon name="fas fa-eye" /></a>
+				          </div>
 				      </q-img>
 				</div>
-				<!-- Cryptolab -->
-				<div class="col-sm-4 col-12">
-					  <q-img src="works/cryptolab.jpg" class="imgs__border">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	FREE Crypto Deposit Insurance Coverage
-				           	<a href="https://lexicon-cryptolab.netlify.app/#/" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-				      </q-img>
-				</div>
-				<!-- Perks -->
-				<div class="col-sm-4 col-12">
-					  <q-img src="works/perks.jpg" class="imgs__border">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	MLMs are designed to make sure that the sales representative's expenses exceed commissions.
-				           	<a href="http://perks.tk" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-				      </q-img>
-				</div>
-				<!-- Beams -->
-				<div class="col-sm-4 col-12">
-					  <q-img src="works/beams.jpg" class="imgs__border">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	Online learning is certainly the more effective option for students, but it's also better for the environment.
-				           	<a href="http://beams.cc" target="_blank" class="btn__direct">Visit Website <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-				      </q-img>
-				</div>
+				<q-dialog v-model="richdad">
+					<q-card class="font-europa" style="width: 800px; max-width: 80vw;">
+						<q-card-section class="row items-center q-pb-none">
+						<div class="text-h6 text-bold">Rich Dad, Poor Dad</div>
+						<q-space />
+						<q-btn icon="close" flat round dense v-close-popup />
+						</q-card-section>
+
+						<q-card-section>
+							<div>
+								<div class="text-bold" style="font-size: 20px">
+									One-sentence synopsis: 
+								</div>
+								<div>
+									People face financial difficulties primarily because they spend several years in school but learn nothing about money and investment opportunities. As a result, people learn to work for money rather than how to make money work for them.
+								</div>
+							</div>
+							<div class="q-pt-md">
+								<div class="text-bold" style="font-size: 20px">
+									Insights
+								</div>
+								<div>
+									Through their own experiences, the rich father in this book teaches two small boys valuable lessons about money. The most important is, without a doubt, understanding how to best use your mind and time to create your own wealth through business and investments.
+								</div>
+								<div class="q-pt-sm">
+									As an ABM student, this book has been extremely beneficial because it discusses financial literacy and financial IQ aspects such as accounting, investment strategies, market law, and the law itself. This book has taught me the following lessons:
+								</div>
+								<div class="q-py-sm">
+									<div>1. It is essential to teach financial literacy.</div>
+									<div>2. Keep your current job, but start thinking about starting your own business.</div>
+									<div>3. Prioritize yourself!</div>
+									<div>4. Make the most of your time and seek out the best opportunities.</div>
+								</div>
+								<div>
+									Get yourself out of the daily grind. Learn how to seize opportunities, deal with problems, manage your business and investments, and most importantly, how to make money work for you rather than against you!
+								</div>
+							</div>
+							<div>
+								<div class="text-bold q-pt-md" style="font-size: 20px">
+									Advice and Objectives 
+								</div>
+								<div>
+									Kiyosaki's goal is to motivate and encourage you so that you can follow the path that leads to financial freedom.  My advice is that if you need to start your financial education with one book, begin with Rich Dad, Poor Dad and I promise you that you will not regret it. 
+								</div>
+								<div>
+									So, read the book Rich Dad, Poor Dad, set goals for yourself, and then take a leap of faith! Most importantly, never overlook the fact that wealth is first and foremost a once-in-a-lifetime opportunity. Have a safe journey!
+								</div>
+							</div>
+						</q-card-section>
+					</q-card>
+				</q-dialog>
+
+				<q-dialog v-model="sands">
+					<q-card class="font-europa" style="width: 800px; max-width: 80vw;">
+						<q-card-section class="row items-center q-pb-none">
+						<div class="text-h6 text-bold">Sands of Time</div>
+						<q-space />
+						<q-btn icon="close" flat round dense v-close-popup />
+						</q-card-section>
+
+						<q-card-section>
+							<div>
+								<div class="text-bold" style="font-size: 20px">
+									Insights
+								</div>
+								<div>
+									I first read this book in eighth grade and continue to do so whenever I am bored or overwhelmed with emotion. Despite the fact that some of the scenes in this book are excruciatingly painful, I've found it to be a comfort book. This is a love story with a twist, a forgiveness story, a justice story, and a romantic story.
+								</div>
+								<div class="q-py-md">
+									Because of the heroine, Raoul Riego's, family background, conflicts, and intense affections, the story was quite different from typical romantic stories. I adore this story because it is simple, but it has a huge impact on me because it captivates my attention and interest. Raoul's passion and love for Soleil touched my heart and soul because Raoul demonstrates that despite all obstacles, his love will always remain. Raoul demonstrated that his love does not fade away, but rather grows stronger over time.
+								</div>
+								<div>
+									Even in the midst of despair, crisis, and challenges, it remains, endures, forgives, and accepts every flaw in Soleil and his past. The emotions I experienced while reading this book were all worthwhile. I laughed, cried, and got emotional, but this was unquestionably one of my all-time favorites.
+								</div>
+							</div>
+						</q-card-section>
+					</q-card>
+				</q-dialog>
+
+				<q-dialog v-model="maketime">
+					<q-card class="font-europa" style="width: 800px; max-width: 80vw;">
+						<q-card-section class="row items-center q-pb-none">
+						<div class="text-h6 text-bold">Make Time</div>
+						<q-space />
+						<q-btn icon="close" flat round dense v-close-popup />
+						</q-card-section>
+
+						<q-card-section>
+							<div>
+								<div class="text-bold" style="font-size: 20px">
+									Insights
+								</div>
+								<div>
+									As a student, the book Make Time has been a huge help to me, especially in terms of time management. The book addresses the issue of the world being too busy for people to find time to focus on what they want to focus on. Rather than focusing on a single large individual goal, the book advises us on three major parts: highlight, laser, and energize. 
+								</div>
+								<div class="q-pt-sm">
+									Highlights are everyday short-term goals or tasks that assist you in balancing your life. Lasers are methods for increasing focus in your life so that you can concentrate on the important things. These chapters provide tips and tactics to help us improve our focus on the highlights and what is important. Finally, energize refers to methods for maintaining energy in order to carry out the highlight. The final chapters of the book provide the reader with the flexibility and guidance they need to choose the tactics they want to implement and test in order to boost their productivity levels. 
+								</div>
+								<div class="q-pt-sm">
+									And here's what I gained or learned from the book:
+								</div>
+								<div>
+									<div>1. Regular tasks should be batch-processed.</div>
+									<div>2. Choose one day's highlight.</div>
+									<div>3. Avoid falling into the busy trap.</div>
+									<div>4. Control your notifications.</div>
+									<div>5. Keep your health in check.</div>
+								</div>
+								<div class="q-pt-sm">
+									In general, the book is a very well-written self-help book. It goes further than theory to practical application, giving readers overview into how to develop their own strategies for improving and 'making time' for the 'highlights' that matter. 
+								</div>
+							</div>
+						</q-card-section>
+					</q-card>
+				</q-dialog>
 			</div>
 		</div>
 
@@ -197,414 +328,125 @@
 		<!------------------- Insert Column 1 ---------------------->
 		<div class="text-white bg_addColumn1">
 			<div class="text-center titleColumn1 text-h4 font-eurostile">
-				My Vector Arts
+				Recommendation
 			</div>
-			<div class="font-europa text-center text-h6 sub__col1">
-				My recent draw on vector arts.
-			</div>
-			<div class="row q-col-gutter-lg imgs__row">
-				<!-- Daniela -->
-					<div class="col-sm-4 col-12">
-						<q-img src="arts/daniela.jpg" class="imgRadiusArts">
-						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://www.instagram.com/p/CDX90iOs-dJ/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-						</q-img>
-					</div>
-				<!-- Me -->
-					<div class="col-sm-4 col-12">
-						<q-img src="arts/me.jpg" class="imgRadiusArts" style="border: 5px solid white; background: white">
-						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://www.instagram.com/p/CJnFQdOnXwC/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-						</q-img>
-					</div>
-				<!-- Iron -->
-					<div class="col-sm-4 col-12">
-						<q-img src="arts/iron.jpg" class="imgRadiusArts"> <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://www.instagram.com/p/CMtdLN7HDIU/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-						</q-img>
-					</div>
-				<!-- Alvin -->
-					<div class="col-sm-4 col-12">
-						<q-img src="arts/alvin.jpg" class="imgRadiusArts">
-						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://www.instagram.com/p/CPwnz3enTEu/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-						</q-img>
-					</div>
-				<!-- El -->
-					<div class="col-sm-4 col-12">
-						<q-img src="arts/el.jpg" class="imgRadiusArts">
-						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://www.instagram.com/p/CSeHrqnH6mr/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-						</q-img>
-					</div>
-				<!-- Nards -->
-					<div class="col-sm-4 col-12">
-						<q-img src="arts/nards.jpg" class="imgRadiusArts">
-						 <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://www.instagram.com/p/CUWwK2xvpz6/" target="_blank" class="btn__direct">View on Instagram <q-icon name="fas fa-angle-right" /></a>
-				           </div>
-						</q-img>
-					</div>
-				</div>
-			</div>
-
-
-
-
-
-
-		<!------------------- Insert Column 2 ---------------------->
-		<div class="text-black bg_addColumn2">
-			<div class="text-center titleColumn2 text-h4 font-eurostile">
-				My Recent Seminars
-			</div>
-			<div class="font-europa text-center text-h6 sub__col2">
-				My recent webinar about Front End & Designs
+			<div class="font-europa text-center text-h6 sub__fth">
+				
+Here are some books that I think you should read. These books have captured my heart and soul, and I am optimistic that they will do the same for you.
 			</div>
 			<!-- Krypto one -->
 			<div class="row q-col-gutter-lg imgs__row">
-				<div class="col-sm-6 col-12">
-					  <q-img src="certificates/1.jpg" class="imgs__border">
+				<div class="col-sm-4 col-12">
+					  <q-img src="recommendation/1.jpg" class="imgs__border">
 				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://www.facebook.com/filtaglobal/videos/381659116175941/" target="_blank" class="btn__direct">Watch Video <q-icon name="fas fa-angle-right" /></a>
+				           	<a @click="brain = true" class="btn__direct">Insights <q-icon name="fas fa-eye" /></a>
 				          </div>
 				      </q-img>
 				</div>
-				<!-- Lexicon -->
-				<div class="col-sm-6 col-12">
-					  <q-img src="certificates/2.jpg" class="imgs__border">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-				           	<a href="https://fb.watch/8vQNnkqweK/" target="_blank" class="btn__direct">Watch Video <q-icon name="fas fa-angle-right" /></a>
-				           </div>
+				<div class="col-sm-4 col-12">
+					  <q-img src="recommendation/2.jpg" class="imgs__border">
+				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a @click="sky = true" class="btn__direct">Insights <q-icon name="fas fa-eye" /></a>
+				          </div>
 				      </q-img>
 				</div>
+				<div class="col-sm-4 col-12">
+					  <q-img src="recommendation/3.jpg" class="imgs__border">
+				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
+				           	<a @click="mindset = true" class="btn__direct">Insights <q-icon name="fas fa-eye" /></a>
+				          </div>
+				      </q-img>
+				</div>
+				<q-dialog v-model="brain">
+					<q-card class="font-europa" style="width: 600px; max-width: 80vw;">
+						<q-card-section class="row items-center q-pb-none">
+						<div class="text-h6 text-bold">Switch On Your Brain</div>
+						<q-space />
+						<q-btn icon="close" flat round dense v-close-popup />
+						</q-card-section>
+
+						<q-card-section>
+							<div>
+								Switch On Your Brain fully demonstrates why stress is bad, and I believe it contains some really essential information for all of us to consider. Leaf has a 5-step process for removing toxic thoughts and replacing them with healthy ones. Gathering, fixated reflection, writing, revisiting, and active reaching are the steps. 
+							</div>
+							<div class="q-pt-md">
+								As a Christian, I believe that everything must be understood through the lens of God's design. This book explains how the Bible and our minds or brains interact. Dr. Leaf clearly explains how we can use God and scripture to overcome any mental battle. It's uplifting to read about how God can change our minds through faith, His word, choosing to think differently, and our basic perception. This book provided me with the spiritual weapons I needed to combat fear and other toxic pattern of thinking.  
+							</div>
+						</q-card-section>
+					</q-card>
+				</q-dialog>
+
+				<q-dialog v-model="sky">
+					<q-card class="font-europa" style="width: 600px; max-width: 80vw;">
+						<q-card-section class="row items-center q-pb-none">
+						<div class="text-h6 text-bold">Taste of Sky</div>
+						<q-space />
+						<q-btn icon="close" flat round dense v-close-popup />
+						</q-card-section>
+
+						<q-card-section>
+							<div>
+								VentreCanard's story is truly remarkable. It broke my heart and nearly drowned me. It's distinctive. I've never read a book about the journey of a female flight lieutenant and a male space commander. Taste of Sky blew me away. The theme is science fiction, and despite the author's lack of experience in this genre, she justified and ended the story well. The two protagonists' love story is not typical. I'm a reader who doesn't like romance, but this story made me fall in love with them.
+							</div>
+							<div class="q-pt-md">
+								Furthermore, the book is informative and useful to read because it discusses how UASA or NASA works in real life. How the government safeguards their country. And it will undoubtedly make you realize that we must protect the Earth and change our negative habits because we are mistreating our planet, our home.
+							</div>
+						</q-card-section>
+					</q-card>
+				</q-dialog>
+
+				<q-dialog v-model="mindset">
+					<q-card class="font-europa" style="width: 600px; max-width: 80vw;">
+						<q-card-section class="row items-center q-pb-none">
+						<div class="text-h6 text-bold">Mindset</div>
+						<q-space />
+						<q-btn icon="close" flat round dense v-close-popup />
+						</q-card-section>
+
+						<q-card-section>
+							<div>
+								Carol Dweck's work is simply remarkable. The book delves deeper to discover how our unconscious and conscious thoughts affect us, and how something as simple as wording can have a substantial effect on the ability to improve. Dweck's research demonstrates the power of our most fundamental beliefs. They strongly "affect what we want and whether we succeed in getting it," whether conscious or subconscious. 
+							</div>
+							<div class="q-pt-md">
+								Much of what we think we understand about our personalities comes from our "mindset," which both propels us and prevents us from reaching our full potential. Mindset: The New Psychology of Success is a must-read for anyone interested in learning more about our minds and how we can shift them for the better. 
+							</div>
+						</q-card-section>
+					</q-card>
+				</q-dialog>
 			</div>
-		</div>
+			</div>
+
+
 		
 
-
-
-
-
-		<!------------------- Insert Column 3 ---------------------->
-		<div class="text-white bg_addColumn3">
-			<div class="text-center titleColumn3 text-h4 font-eurostile">
-				My Recent Works on Graphics Design
-			</div>
-			<div class="font-europa text-center text-h6 sub__col3">
-				My recent designs on graphics
-			</div>
-			<!-- Kpluz -->
-			<div class="row q-col-gutter-lg imgs__row">
-				<div class="col-sm-6 col-12">
-					  <q-img src="graphics/kpluz.jpg" class="imgRadiusGraphics">
-				          <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-							  KPLUZ BROCHURE
-				          </div>
-				      </q-img>
-				</div>
-				<!-- Beams -->
-				<div class="col-sm-6 col-12">
-					  <q-img src="graphics/beams.jpg" class="imgRadiusGraphics">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-							   BEAMS BROCHURE
-				           </div>
-				      </q-img>
-				</div>
-				<!-- ela -->
-				<div class="col-sm-6 col-12">
-					  <q-img src="graphics/ela.jpg" class="imgRadiusGraphics">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-							   CLIENT BANNER
-				           </div>
-				      </q-img>
-				</div>
-				<!-- rivals -->
-				<div class="col-sm-6 col-12">
-					  <q-img src="graphics/rivals.jpg" class="imgRadiusGraphics">
-				           <div class="absolute-full flex flex-center hover__detailsImg font-eurostile text-center">
-							   CLIENT BANNER
-				           </div>
-				      </q-img>
-				</div>
-			</div>
-		</div>
 
 
 
 		<!------------------- Fifth Column ---------------------->
 		<div class="text-black bg_fifthColumn">
 			<div class="text-center title__fft text-h4 font-eurostile">
-						Testimonials
+						Get in touch 
 					</div>
 					<div class="font-europa text-center text-h6 sub__fft">
-						See what people are saying...
+						Are you also a bookworm? Let us get in touch with each other. Feel free to message me if you have any recommendations for wholesome books to read.
 					</div>
-			 <q-carousel
-		        v-model="slide"
-		        transition-prev="scale"
-		        transition-next="scale"
-		        swipeable
-		        infinite
-		        control-color="black"
-		        animated
-		        style="background: transparent; height: 100%;"
-				class="cursor__pointer"
-				      >
-			     <q-carousel-slide name="josh" class="column no-wrap flex-center">
-					<div class="text-center" style="height: 100%">
-						  <q-img
-					          src="people/josh.jpg"
-					          :ratio="1"
-					          class="image_peopleContainer"
-					        />
+				<form name="contact" method="POST" data-netlify="true" class="font-europa form__parent">
+					<div>
+						<input class="input__last" type="text" name="firstname" placeholder="First Name" style="width: 40%" />
+						<input class="input__last" type="text" name="lastname"  placeholder="Last Name" style="width: 40%" />
 					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“he's the kind of guy behind were supporting you to start from scratch to finished and Creating the best Quality”
+					<div>
+						<input class="input__last" type="email" name="email" placeholder="Email"  style="width: 83%" />
 					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Josh Lopez
+					<div>
+						<textarea class="input__last" name="message" placeholder="Message" style="width: 83%; height: 100px"></textarea>
 					</div>
-					<div class="text-center font-europa">
-						UI Developer, Music Prod.
+					<div>
+						<button class="input__last text-bold" type="submit" style="width: 83%; font-size: 20px; cursor: pointer">Send</button>
 					</div>
-			    </q-carousel-slide>
-			     <q-carousel-slide name="andrea" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/andrea.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Angelo has a great skills in front-end development and he also shows his interest in learning the backend development, He actively seek and achieves group participation to improve work, set priorities, innovate and solve problems. Angelo is also well-organized, efficient with his time and mindful of deadlines.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Andrea Destajo
-					</div>
-					<div class="text-center font-europa">
-						Backend Web Developer, Uniqx
-					</div>
-			    </q-carousel-slide>
-			    <q-carousel-slide name="pergent" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/pergent.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Despite his young age, he did a very good job. Very talented Frontend Developer.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Pergent Galang II
-					</div>
-					<div class="text-center font-europa">
-						Fullstack Web Developer, Mobile Developer
-					</div>
-			    </q-carousel-slide>
-			     <q-carousel-slide name="vermont" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/vermont.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Gelo has always been a talented frontend developer and designer. At such a young age, he handles the design of all our projects and we trust him. He is important to our team.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Vermont Phil Paguiligan
-					</div>
-					<div class="text-center font-europa">
-						Web Developer, Electronics Engr.
-					</div>
-			    </q-carousel-slide>
-			      <q-carousel-slide name="merry" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/merry.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Mr. Angelo is an efficient colleague. He always make sure to finish his tasks on time and also a good team player.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Merry Liza De Leon
-					</div>
-					<div class="text-center font-europa">
-						Marketing, Content Creator
-					</div>
-			    </q-carousel-slide>
-			     <q-carousel-slide name="david" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/david.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Excellent at designing and converting it to a Website. Good at code optimization and quick to finish task without any flaws.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						David Jude
-					</div>
-					<div class="text-center font-europa">
-						Backend Web Developer, Master of Science in Information Technology
-					</div>
-			    </q-carousel-slide>
-			    <q-carousel-slide name="don" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/don.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Gelo is a hardworking and creative frontend developer.  He shows his excellence at young age.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						John Raymund Bernal
-					</div>
-					<div class="text-center font-europa">
-						Nodejs Developer, Software Developer
-					</div>
-			    </q-carousel-slide>
-			    <q-carousel-slide name="paul" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/paul.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Gushing in-person gratitude… You've been so helpful.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Paul Musa
-					</div>
-					<div class="text-center font-europa">
-						Backend Web Development, Blockchain Engr.
-					</div>
-			    </q-carousel-slide>
-			     <q-carousel-slide name="chi" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/chi.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Angelo has great skills and knowledge when it comes to front-end development. He also shares and teaches his knowledge to front-end development to his team. Angelo shows great interest in learning back-end development. When it comes to his tasks, Angelo always finish his work in time. He can also work under pressure when it comes to change in his work loads and deadlines.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Cheiselle Deloso
-					</div>
-					<div class="text-center font-europa">
-						Web Developer, Coffee Lover
-					</div>
-			    </q-carousel-slide>
-			    <q-carousel-slide name="gam" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/gam.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“Excellent web designing at young age. Passionate and learns fast.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Gamaliel Lumanta
-					</div>
-					<div class="text-center font-europa">
-						Backend Web Developer, Team Captain
-					</div>
-			    </q-carousel-slide>
-			    <q-carousel-slide name="toqaf" class="column no-wrap flex-center">
-					<div class="text-center">
-						<q-img
-					          src="people/toqaf.jpg" 
-					          class="image_peopleContainer" 
-					          :ratio="1"
-					        />
-					</div>
-					<div class="text-center font-eurostile text-h5 testi__context">
-						“He has good knowledge of design for web, user experience design and responsive design principles.”
-					</div>
-					<div class="text-center font-eurostile text-h5" style="letter-spacing: 1.1px;">
-						Toqaful Yaosaful L. Herrera
-					</div>
-					<div class="text-center font-europa">
-						Fullstack Web developer, Software Engr.
-					</div>
-			    </q-carousel-slide>
-		 </q-carousel>
+				</form>
 
-
-			 <!-- Control -->
-			 <div class="text-center">
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="josh()" :class="slide == 'josh' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="andrea()" :class="slide == 'andrea' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="pergent()" :class="slide == 'pergent' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="vermont()" :class="slide == 'vermont' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="merry()" :class="slide == 'merry' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="david()" :class="slide == 'david' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="don()" :class="slide == 'don' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="paul()" :class="slide == 'paul' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="chi()" :class="slide == 'chi' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="gam()" :class="slide == 'gam' ? 'text-black' : 'text-grey-7'" />
-
-
-				 <q-btn 
-				 size="7px" icon="fas fa-circle" flat round @click="toqaf()" :class="slide == 'toqaf' ? 'text-black' : 'text-grey-7'" />
-				 <q-tooltip>
-				 	Swipe Horizontally
-				 </q-tooltip>
-			</div>
+				<form name="contact" action="/pages/success" method="POST" data-netlify="true"></form>
 		</div>
 
 
@@ -615,7 +457,7 @@
 				<img src="../../public/icons/logo_2.png" style="width: 150px">
 			</div>
 			<div class="sub__footer font-eurostile text-center text-italic">
-				If you can dream it, you can do it.
+				Reading is like bringing your imaginations to life.
 			</div>
 			<div class="text-center social__medias">
 				<a class="media__btn q-mx-sm target__btn" href="https://www.facebook.com/angelogabitan.17" target="_blank">
@@ -638,7 +480,7 @@
 				</a>
 			</div>
 			<div class="text-center copyright__txt font-europa q-px-sm">
-				Made By Angelo Gabitan || Using Vue & Quasar Framework || ©2021
+				Made By Leigh Beah S. Malabanan || Using Vue & Quasar Framework || ©2021
 			</div>
 		</div>
 	</div>
@@ -650,55 +492,36 @@ export default {
   data() {
   	return {
   		 slide: 'josh',
+		 richdad: false,
+		 sands: false,
+		 maketime: false,
+		 brain: false,
+		 sky: false,
+		 mindset: false,
   	}
   },
-   computed:{
-        calculateAge: function() {
-          let currentDate = new Date();
-          let birthDate = new Date("2004/09/17");
-          let difference = currentDate - birthDate;
-          let age = Math.floor(difference/31557600000);
-          return age
-        },
-      },
   methods: {
-  	async josh() {
-  		this.slide = 'josh';
-  	},
-  	async andrea() {
-  		this.slide = 'andrea';
-  	},
-  	async pergent() {
-  		this.slide = 'pergent';
-  	},
-  	async vermont() {
-  		this.slide = 'vermont';
-  	},
-  	async merry() {
-  		this.slide = 'merry';
-  	},
-  	async david() {
-  		this.slide = 'david';
-  	},
-  	async don() {
-  		this.slide = 'don';
-  	},
-  	async paul() {
-  		this.slide = 'paul';
-  	},
-  	async chi() {
-  		this.slide = 'chi';
-  	},
-  	async gam() {
-  		this.slide = 'gam';
-  	},
-  	async toqaf() {
-  		this.slide = 'toqaf';
-  	},
-	  	moment: function () {
-	    return moment();
-	  },
+  	
+  },
+  mounted() {
+	  function encode(data) {
+		return Object.keys(data)
+			.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+			.join("&")
+	}
+	const handleSubmit = (event) => {
+	event.preventDefault()
+	fetch("/", {
+		method: "POST",
+		headers: { "Content-Type": "application/x-www-form-urlencoded" },
+		body: encode({
+		"form-name": event.target.getAttribute("name"),
+		...name
+		})
+	}).then(() => navigate("/thank-you/")).catch(error => alert(error))
+	}
   }
+  
 }
 </script>
 
@@ -713,14 +536,45 @@ export default {
 		line-height: 1.5;
 		font-weight: thin !important;
 		font-size: 21px;
-		margin: 0px 0px 25px 0px;
+		margin: 0px 0px 2px 0px;
 	}
 	.me__image {
 		transition: 1s;
-		width: 330px
+		width: 330px;
+		margin-right: 10px;
 	}
-	.me__image:hover {
-		transform: translate(0px, -25px);
+	.dtls_beah {
+		transition: 1s;
+		margin-left: 10px;
+	}
+	.greetings__hover {
+		font-size: 30px;
+		transition: 1s;
+		transform: scale(0);
+		font-weight: 900;
+	}
+	@media (min-width: 555px) {
+		.hover_hereDtls:hover .dtls_beah {
+			transform: translate(80px, 0px);
+		}
+		.hover_hereDtls:hover .me__image {
+			transform: translate(-80px, 0px);
+		}
+		.hover_hereDtls:hover .greetings__hover {
+			transform: scale(2);
+		}
+	}
+	@media (max-width: 555px) {
+		.hover_hereDtls:hover .dtls_beah {
+			transform: translate(0px, 40px);
+		}
+		.hover_hereDtls:hover .me__image {
+			transform: translate(0px, -20px);
+		}
+		.hover_hereDtls:hover .greetings__hover {
+			transform: scale(2);
+			margin-bottom: -130px
+		}
 	}
 	.bg__firstColumn {
 		background: black;
@@ -773,10 +627,10 @@ export default {
 	}
 	.dsn__sub {
 		margin-top: 20px;
-		font-size: 18px;
+		font-size: 23px;
 	}
 	.dsn__context {
-		margin-top: 50px;
+		margin-top: 10px;
 		font-size: 18px;
 	}
 	.dsn__tools {
@@ -821,14 +675,14 @@ export default {
 		cursor: pointer;
 		text-decoration: none;
 		color: white;
-		border: 2px solid #91abff;
+		border: 2px solid #cdb891;
 		padding: 10px 20px;
 		border-radius: 30px;
 		font-size: 16px;
 		transition: 0.5s;
 	}
 	.btn__direct:hover {
-		background: #91abff;
+		background: #cdb891;
 	}
 
 
@@ -841,7 +695,7 @@ export default {
 		margin: 50px 0px 20px 0px;
 	}
 	.sub__fft {
-		margin: 0px 0px 20px 0px;
+		margin: 0px 350px 20px 350px;
 	}
 	.image_peopleContainer {
 		width: 100px;
@@ -951,6 +805,32 @@ export default {
 	.copyright__txt {
 		margin-top: 50px;
 	}
+
+
+
+
+	/* last */
+	.input__last {
+		border: 0;
+		outline: none;
+		background: #cdb891;
+		color: white;
+		padding: 15px 20px;
+		margin: 5px 10px;
+		border-radius: 10px;
+	}
+	 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: white;
+		opacity: 1; /* Firefox */
+	}
+	 ::-ms-input-placeholder { /* Microsoft Edge */
+		color: white;
+	}
+	.form__parent {
+		max-width: 600px;
+		margin: 0 auto;
+		text-align: center;
+	}
 </style>
 
 
@@ -976,6 +856,9 @@ export default {
 		.sub__footer {
 			padding: 0px 300px;
 		}
+		.sub__fft {
+			margin: 0px 250px 20px 250px;
+		}
 	}
 	@media (max-width: 999px) {
 		.snd__spacing {
@@ -996,6 +879,9 @@ export default {
 		.sub__footer {
 			padding: 0px 200px;
 		}
+		.sub__fft {
+			margin: 0px 150px 20px 150px;
+		}
 	}
 	@media (max-width: 813px) {
 		.thd__row {
@@ -1008,6 +894,9 @@ export default {
 		.testi__context {
 			margin: 30px 50px 30px 50px;
 		} 
+		.sub__fft {
+			margin: 0px 50px 20px 50px;
+		}
 	}
 	@media (max-width: 737px) {
 		.computers__size {
@@ -1036,10 +925,6 @@ export default {
 		.front__title {
 			font-size: 30px;
 			padding: 30px 0px 20px 0px;
-		}
-		.front__details {
-			font-size: 16px;
-			margin: 0px 10px 25px 10px;
 		}
 		.me__image {
 			width: 250px;
@@ -1087,4 +972,11 @@ export default {
 			padding: 0px 20px;
 		}
 	}
+
+
+	.bg__firstColumn .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 </style>

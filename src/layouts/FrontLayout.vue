@@ -65,14 +65,14 @@
 		padding: 10px 20px;
 	}
 	.contant__btn {
-		border: 2px solid #91abff;
-		color: #91abff;
+		border: 2px solid #cdb891;
+		color: #cdb891;
 		transition: 0.5s;
 		font-weight: 500;
 	}
 	.contant__btn:hover {
-		background: #91abff;
-		color: white;
+		background: #cdb891;
+		color: black;
 	}
 	.resume__btn {
 		transition: 0.5s;
@@ -81,7 +81,7 @@
 		border-radius: 30px;
 	}
 	.resume__btn:hover {
-		color: #91abff;
+		color: #cdb891;
 		background: #1a1a1a;
 	}
 	@media (min-width: 800px) {

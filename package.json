@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "my portfolio",
   "productName": "Quasar App",
-  "author": "Gelo",
+  "author": "beah",
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
